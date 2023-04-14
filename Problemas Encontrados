@@ -1,0 +1,30 @@
+## Problemas encontrados
+----------
+
+**CadastroDVD método Altera**
+
+Altera não exige a entidade amigo nova que irá substituir a que se deseja alterar
+
+**RegistroEmprestimo método Devolve**
+
+Não informa quem exatamente está devolvendo o DVD "Amigo"
+
+**CadastroAmigo método Altera**
+
+Altera não exige a entidade amigo nova que irá substituir a que se deseja alterar
+
+**Registro Emprestimo método Devolve**
+
+Não pergunta de quem é o DVD
+
+**Interface método leDVD**
+
+Devolve um DVD mas qual? Não pergunta nenhum parametro, pode ser interpretado como erro
+
+**Interface método leAmigo**
+
+Devolve um Amigo mas qual? Não pergunta nenhum parametro, pode ser interpretado como erro
+
+**Interface método leEmprestimo**
+
+Não devolve um empresmito, não pergunta nenhum parametro, qual emprestimo deve ser lido e como a leitura será feita sem saída?
